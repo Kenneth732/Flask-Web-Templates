@@ -14,3 +14,10 @@ def about():
     return render_template('about.html')
 
 @app.route('/comments/')
+def comments():
+    comments = [
+        'This is the first comment.',
+                'This is the second comment.',
+                'This is the third comment.',
+                'This is the fourth comment.'
+    ]
