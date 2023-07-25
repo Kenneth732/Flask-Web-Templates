@@ -52,6 +52,8 @@ a:nth-child(1){
     font-size: 24px;
     color: #fff;
     cursor: pointer;
+    font-weight: 500;
+    margin-right: 35px;
 }
 
 /* CONTENT */
@@ -62,20 +64,114 @@ a:nth-child(1){
 
 
 /* About */
-h1 {
-    color: #d64161;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
-  
-  /* Custom style for h3 in about.html */
-  h3 {
-    color: #333;
-    font-size: 1.5em;
-  }
+
   
 
 
 .content {
     padding-top: 100px;
 }
+  
+  /* Style for the home section */
+  .home {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .home-content {
+    max-width: 600px;
+    padding: 40px;
+  }
+  
+  .home h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .home h3 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  /* Social media icons */
+  .social-media a {
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #d64161;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    background-color: #d64161;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b63053;
+  }
+  
+/* .home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    pad: 60px 7% 0;
+}
+.home .home-content{
+    max-width: 450px;
+}
+.home .home-content h3{
+    font-size: 32px;
+}
+
+.home .home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home .home-content p{
+    font-size: 16px;
+}
+
+.social-media {
+    height: 8vh;
+    border: 3px solid red;
+    align-items: center;
+    justify-content: space-evenly!important;
+}
+.social-media a:nth-child(1){
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+}
+.social-media a:nth-child(2){
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+} */
