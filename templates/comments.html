@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>{% block title %} Comment {% endblock %}</h1>
+    <div class="comment-content">
+        {% for comment in comments %}
+
+        <div class="comment-contect-text">
+            <p>{ comment }</p>
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

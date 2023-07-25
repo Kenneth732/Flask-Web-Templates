@@ -8,6 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='comments.css') }}">
 </head>
 <body>
     <div class="container">
@@ -16,7 +17,7 @@
             <nav class="navbar">
                 <a href="{{ url_for('index') }}">Home</a>
                 <a href="{{ url_for('about') }}">About</a>
-                <a href="">Skills</a>
+                <a href="{{ url_for('comments') }}">Comment</a>
                 <a href="">Portfolio</a>
                 <a href="">Contact</a>
             </nav>

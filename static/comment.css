@@ -1,0 +1,11 @@
+.comment-content{
+    width: 50%; margin: auto;
+  }
+
+.comment-content .comment-contect-text{
+    padding: 10px; background-color: #EEE; margin: 20px
+  }
+
+  .comment-content .comment-contect-text p{
+    font-size: 24px
+  }
